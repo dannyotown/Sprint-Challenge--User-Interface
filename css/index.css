@@ -192,3 +192,29 @@ a{
 #box10{
     background-color: dodgerblue;
 }
+.aboutTopImage{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.aboutDiv{
+    padding: 15px;
+}
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxContent{
+    width:50%;
+    margin: 25px 0px 25px 0px;
+}
+button{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: solid black 2px;
+    background: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
