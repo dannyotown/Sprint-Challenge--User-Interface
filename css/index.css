@@ -194,21 +194,22 @@ a{
 }
 .aboutTopImage{
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 .aboutDiv{
-    padding: 15px;
+    padding: 30px;
+    border-bottom: 1px dashed black;
 }
 .boxContainer{
     display: flex;
     flex-wrap: wrap;
 }
 .boxContent{
-    width:50%;
-    margin: 25px 0px 25px 0px;
+    width: 365px;
+    margin: 2%;
+    border-bottom: 1px dashed black;
 }
 button{
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 25px;
     border: solid black 2px;
     background: white;
@@ -217,4 +218,14 @@ button{
     font-size: 13px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
+}
+.contentH2{
+ margin: 10px 0px 15px 0px !important;
+ padding: 0px !important;   
+}
+.contentImage{
+width: 365px;
+}
+.bottomContent{
+    padding: 30px;
 }
