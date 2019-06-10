@@ -44,7 +44,7 @@ Inline will create a row for the elements. (not really create but occupy 100% of
 Margin, Border, Padding, and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-It will align the items on the cross axis.
+It will center the items on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
 It is a time machine for the code. You are able to track the codes history.
