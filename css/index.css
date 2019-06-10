@@ -194,6 +194,10 @@ a{
 }
 .aboutTopImage{
     margin-top: 20px;
+    opacity: 0.7;
+}
+.aboutTopImage:hover{
+    opacity: 1;
 }
 .aboutDiv{
     padding: 30px;
@@ -229,4 +233,15 @@ width: 365px;
 }
 .bottomContent{
     padding: 30px;
+}
+.contentImage:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#topImage{
+    opacity: 0.7;
+}
+#topImage:hover{
+    opacity: 1;
 }

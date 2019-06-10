@@ -9,7 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
       <nav class="navigationParent">
         <a href="#"><img src="C:\Users\Dtown\Documents\GitHub\Sprint-Challenge--User-Interface\img\lambda-black.png"
             title="lambda logo"></a>
-        <a href="home.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="#">Products</a>
         <a href="#">Blog</a>
@@ -26,7 +26,7 @@
       </nav>
     </header>
     <img src="C:\Users\Dtown\Documents\GitHub\Sprint-Challenge--User-Interface\img\jumbo-about.png" title="Skyline view"
-      class="aboutTopImage">
+      class="aboutTopImage"> 
     <div class="aboutDiv">
       <h2>About</h2>
       <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
@@ -36,7 +36,7 @@
     <section>
       <div class="boxContainer">
         <div class="boxContent">
-          <img src="img/about-plan.png" alt="strategy" class="contentImage">
+          <img src="img/about-plan.png" alt="strategy" class="contentImage">  <!--WOULD ADD LINK HERE BECAUSE OF ONHOVER FEEL-->
 
           <h2 class="contentH2">Strategy</h2>
 
@@ -46,7 +46,7 @@
           <button>Learn More</button>
         </div>
         <div class="boxContent">
-          <img src="img/about-working.png" alt="strategy" class="contentImage">
+          <img src="img/about-working.png" alt="strategy" class="contentImage">  <!--WOULD ADD LINK HERE BECAUSE OF ONHOVER FEEL-->
           <h2 class="contentH2">How We Work</h2>
 
           <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
@@ -56,7 +56,7 @@
         </div>
 
         <div class="boxContent">
-          <img src="img/about-office.png" alt="strategy" class="contentImage">
+          <img src="img/about-office.png" alt="strategy" class="contentImage">  <!--WOULD ADD LINK HERE BECAUSE OF ONHOVER FEEL-->
 
           <h2 class="contentH2">Places We Work</h2>
 
@@ -66,7 +66,7 @@
           <button>Learn More</button>
         </div>
         <div class="boxContent">
-          <img src="img/about-meeting.png" alt="strategy" class="contentImage">
+          <img src="img/about-meeting.png" alt="strategy" class="contentImage"> <!--WOULD ADD LINK HERE BECAUSE OF ONHOVER FEEL-->
 
           <h2 class="contentH2">Collaboration</h2>
 
@@ -98,5 +98,9 @@
     </section>
   </div><!-- container -->
 </body>
-
+<script>
+$(document).ready(function(){
+    $(".boxContent").hide(0).delay(250).fadeIn(1500)
+});
+</script>
 </html>
